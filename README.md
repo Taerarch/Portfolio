@@ -1,8 +1,8 @@
 # Portfolio
 ## Needs work
 
-- [] Title
-- [] About
-- [] Skills
-- [] Contact
-- [] Make Pretty
+- [ ] Title
+- [ ] About
+- [ ] Skills
+- [ ] Contact
+- [ ] Make Pretty

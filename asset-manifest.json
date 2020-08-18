@@ -1,25 +1,31 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.e003f981.chunk.css",
-    "main.js": "/Portfolio/static/js/main.920ff842.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.920ff842.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.b80615f1.chunk.css",
+    "main.js": "/Portfolio/static/js/main.72379b22.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.72379b22.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.e440ee5a.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e440ee5a.js.map",
     "static/css/2.11829350.chunk.css": "/Portfolio/static/css/2.11829350.chunk.css",
-    "static/js/2.82840d04.chunk.js": "/Portfolio/static/js/2.82840d04.chunk.js",
-    "static/js/2.82840d04.chunk.js.map": "/Portfolio/static/js/2.82840d04.chunk.js.map",
+    "static/js/2.3b642a42.chunk.js": "/Portfolio/static/js/2.3b642a42.chunk.js",
+    "static/js/2.3b642a42.chunk.js.map": "/Portfolio/static/js/2.3b642a42.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.9d94e5305484d13536ca4bfd9826d5d3.js": "/Portfolio/precache-manifest.9d94e5305484d13536ca4bfd9826d5d3.js",
+    "precache-manifest.5286741630deed21623e7e860ac477a6.js": "/Portfolio/precache-manifest.5286741630deed21623e7e860ac477a6.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/Portfolio/static/css/2.11829350.chunk.css.map",
-    "static/css/main.e003f981.chunk.css.map": "/Portfolio/static/css/main.e003f981.chunk.css.map",
-    "static/js/2.82840d04.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.82840d04.chunk.js.LICENSE.txt"
+    "static/css/main.b80615f1.chunk.css.map": "/Portfolio/static/css/main.b80615f1.chunk.css.map",
+    "static/js/2.3b642a42.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.3b642a42.chunk.js.LICENSE.txt",
+    "static/media/FirebaseLogo.jpg": "/Portfolio/static/media/FirebaseLogo.4faacb82.jpg",
+    "static/media/JQueryLogo.jpg": "/Portfolio/static/media/JQueryLogo.df2ec1c3.jpg",
+    "static/media/JsLogo.png": "/Portfolio/static/media/JsLogo.7f2092da.png",
+    "static/media/NodejsLogo.png": "/Portfolio/static/media/NodejsLogo.85458a67.png",
+    "static/media/RailsLogo.png": "/Portfolio/static/media/RailsLogo.f260c4e1.png",
+    "static/media/RubyLogo.png": "/Portfolio/static/media/RubyLogo.bf151eeb.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e440ee5a.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.82840d04.chunk.js",
-    "static/css/main.e003f981.chunk.css",
-    "static/js/main.920ff842.chunk.js"
+    "static/js/2.3b642a42.chunk.js",
+    "static/css/main.b80615f1.chunk.css",
+    "static/js/main.72379b22.chunk.js"
   ]
 }

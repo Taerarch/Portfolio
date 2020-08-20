@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/Skills.css';
-import {Image, Col, Row, Container} from 'react-bootstrap';
+import {Col, Row, Container} from 'react-bootstrap';
 import {FirebaseLogo, HerokuLogo, JQueryLogo, JsLogo, NodejsLogo, RailsLogo, RubyLogo, ReactLogo} from './ImageList.js'
 
 function Skills() {

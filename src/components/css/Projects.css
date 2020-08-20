@@ -1,7 +1,34 @@
+img {
+  margin-bottom: 20px;
+}
+li {
+  text-align: left;
+}
+
 .projects {
   padding: 2em;
-  min-height: 20vh;
-  width: 100vw;
-  height: 100vh;
-  background-color: lightgray;
+  min-height: 80vh;
+  background-color: #246;
+  width: 100%;
+}
+
+.projects h2 {
+  margin-bottom: 1.6em;
+  color: white;
+}
+
+.card-body:hover {
+  cursor: pointer;
+}
+
+
+#details {
+  text-align: left;
+}
+
+#projectDisplay {
+  margin: 2em;
+  margin-left: 1em;
+  margin-bottom: 20px;
+  vertical-align: top;
 }

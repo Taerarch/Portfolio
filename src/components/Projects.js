@@ -37,12 +37,14 @@ function Projects() {
               <Card onClick={() => setClick('')} id="projectDisplay" style={{ width: '100%', minHeight: '400px'}}>
                 <Card.Body>
                   <Card.Img variant="top" src={p.image} />
-                  <Card.Title>{p.name}</Card.Title>
+                  <Card.Title id="displayTitle">{p.name}</Card.Title>
                   <Card.Text>
                     <Container fluid>
                       <Row>
                         <Col id="details" md={6}>
-                          {p.details}
+                          {p.details.map((deets) =>
+                            <p key={deets.length}>{deets}</p>
+                          )}
                         </Col>
                         <Col md={2}></Col>
                         <Col md={4}>

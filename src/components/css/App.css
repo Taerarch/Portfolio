@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
   text-align: center;
   transition: 0.5s;
+  font-family: 'Roboto', sans-serif;
 }

@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fc8dc389b46a2fd31bab39349bc6ddf3",
+    "revision": "42945bba730c220181142f5fa811fd42",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "cf5ddcc622f30af1bff2",
+    "revision": "ec1674486f84b8e0cf6b",
     "url": "/Portfolio/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "b6842aa72b78425c307d",
-    "url": "/Portfolio/static/css/main.39f615a2.chunk.css"
+    "revision": "eba95e652009a6d22288",
+    "url": "/Portfolio/static/css/main.3dfda287.chunk.css"
   },
   {
-    "revision": "cf5ddcc622f30af1bff2",
-    "url": "/Portfolio/static/js/2.f54b8ae8.chunk.js"
+    "revision": "ec1674486f84b8e0cf6b",
+    "url": "/Portfolio/static/js/2.73548894.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/Portfolio/static/js/2.f54b8ae8.chunk.js.LICENSE.txt"
+    "url": "/Portfolio/static/js/2.73548894.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b6842aa72b78425c307d",
-    "url": "/Portfolio/static/js/main.c88d22d8.chunk.js"
+    "revision": "eba95e652009a6d22288",
+    "url": "/Portfolio/static/js/main.cad6e867.chunk.js"
   },
   {
     "revision": "b83a37198ba343383876",
@@ -29,15 +29,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "4faacb82670ce12ef0d453c266f75105",
-    "url": "/Portfolio/static/media/FirebaseLogo.4faacb82.jpg"
+    "url": "/Portfolio/static/media/Firebase.4faacb82.jpg"
   },
   {
     "revision": "df2ec1c3250aa9f6690cb8f965c170b3",
-    "url": "/Portfolio/static/media/JQueryLogo.df2ec1c3.jpg"
+    "url": "/Portfolio/static/media/JQuery.df2ec1c3.jpg"
   },
   {
     "revision": "7f2092da56fc7a0f40b63019e0400042",
-    "url": "/Portfolio/static/media/JsLogo.7f2092da.png"
+    "url": "/Portfolio/static/media/Javascript.7f2092da.png"
   },
   {
     "revision": "eb77cfef8a392f61481982a063d49a45",
@@ -45,7 +45,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "85458a6717bed07d7db5146928d3cdd0",
-    "url": "/Portfolio/static/media/NodejsLogo.85458a67.png"
+    "url": "/Portfolio/static/media/Nodejs.85458a67.png"
   },
   {
     "revision": "3283e5a5e470c7d8011ba3563e736b00",
@@ -65,7 +65,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "f260c4e1edfe24309dba8457f0745aa3",
-    "url": "/Portfolio/static/media/RailsLogo.f260c4e1.png"
+    "url": "/Portfolio/static/media/Rails.f260c4e1.png"
   },
   {
     "revision": "39411571f35651f98b88534bad1aec4e",
@@ -73,7 +73,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "bf151eeb8b27d79149353d40c247d81b",
-    "url": "/Portfolio/static/media/RubyLogo.bf151eeb.png"
+    "url": "/Portfolio/static/media/Ruby.bf151eeb.png"
   },
   {
     "revision": "8a1a6e327485aad218441abc51ad93be",

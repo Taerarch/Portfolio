@@ -4,9 +4,11 @@ import './css/Contact.css'
 function Contact() {
   return (
     <div className="contact">
+
       <h2>Contact Me!</h2>
-        <h5>0435509195</h5>
-        <h5>matthew.tudman@gmail.com</h5>
+      <a href="https://www.linkedin.com/in/matthew-tudman/">LinkedIn Profile</a>
+      <br/>
+      <a href="mailto:matthew.tudman@gmail.com">Email Me</a>
     </div>
   );
 }

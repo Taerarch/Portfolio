@@ -1,7 +1,7 @@
 import React from 'react';
 import './css/Skills.css';
 import {Col, Row, Container} from 'react-bootstrap';
-import {FirebaseLogo, HerokuLogo, JQueryLogo, JsLogo, NodejsLogo, RailsLogo, RubyLogo, ReactLogo} from './ImageList.js'
+import {Firebase, Heroku, JQuery, Javascript, Nodejs, Rails, Ruby, ReactLogo} from './ImageList.js'
 
 function Skills() {
   return (
@@ -12,25 +12,25 @@ function Skills() {
           <Col md={1}></Col>
           <Col md={1}></Col>
           <Col md={1}>
-            {FirebaseLogo}
+            {Firebase}
           </Col>
           <Col md={1}>
-            {HerokuLogo}
+            {Heroku}
           </Col>
           <Col md={1}>
-            {JQueryLogo}
+            {JQuery}
           </Col>
           <Col md={1}>
-            {JsLogo}
+            {Javascript}
           </Col>
           <Col md={1}>
-            {NodejsLogo}
+            {Nodejs}
           </Col>
           <Col md={1}>
-            {RailsLogo}
+            {Rails}
           </Col>
           <Col md={1}>
-            {RubyLogo}
+            {Ruby}
           </Col>
           <Col md={1}>
             {ReactLogo}

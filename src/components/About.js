@@ -11,17 +11,20 @@ function About() {
         <Row>
           <Col md={1}></Col>
           <Col md={6}>
-            <Accordion defaultActiveKey="1">
+            <h1 id="nameTitle" >Matthew Tudman</h1>
+            <Accordion id="aboutAccordion" defaultActiveKey="1">
               {AboutObject.map((a) =>
-                <Card>
+                <Card key={a.key}>
                   <Card.Header>
-                    <Accordion.Toggle as={Button} variant="link" eventKey="1">
+                    <Accordion.Toggle as={Button} id={a.key} variant="link" eventKey={a.key}>
                       {a.title}
                     </Accordion.Toggle>
                   </Card.Header>
-                  <Accordion.Collapse eventKey="1">
-                    <Card.Body>
-                      {a.body}
+                  <Accordion.Collapse eventKey={a.key}>
+                    <Card.Body className="body">
+                      {a.body.map((b, index) =>
+                        <p key={index + a.key}>{b}</p>
+                      )}
                     </Card.Body>
                   </Accordion.Collapse>
                 </Card>
@@ -29,7 +32,11 @@ function About() {
             </Accordion>
           </Col>
           <Col id="headshot" md={4}>
-            {MatthewHeadshot}
+            <Card>
+              <Card.Body>
+                {MatthewHeadshot}
+              </Card.Body>
+            </Card>
           </Col>
           <Col md={1}> </Col>
         </Row>

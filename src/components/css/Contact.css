@@ -1,5 +1,10 @@
 .contact {
   padding: 2em;
-  min-height: 30vh;
-  background-color: lightgray;
+  min-height: 10vh;
+  background-color: black;
+  color: white;
+}
+
+.contact a {
+  color: white;
 }

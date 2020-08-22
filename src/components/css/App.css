@@ -5,3 +5,8 @@
   transition: 0.5s;
   font-family: 'Roboto', sans-serif;
 }
+
+#blackBar {
+  background-color: black;
+  height: 6vh;
+}

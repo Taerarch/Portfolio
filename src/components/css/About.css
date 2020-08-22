@@ -1,10 +1,31 @@
 .about {
   padding: 2em;
   width: 100vw;
-  height: 80vh;
+  min-height: 70vh;
   background-color: white;
 }
 
+.btn-link{
+  font-size: 24px;
+  text-align: left;
+}
+
+.body {
+  height: 240px;
+}
+
+#aboutAccordion {
+  width: 70%;
+}
+
 #headshot img {
-  width: 80%;
+  width: 100%;
+}
+
+#nameTitle {
+  text-align: left;
+  font-size: 50px;
+  margin: 0.5em;
+  margin-bottom: 1em;
+  font-weight: bold;
 }

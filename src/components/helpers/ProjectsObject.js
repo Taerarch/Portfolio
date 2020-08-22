@@ -1,4 +1,3 @@
-import React from 'react';
 import Project4 from '../images/Project3.png'
 import Project3 from '../images/Project2.png'
 import Project2 from '../images/Project1.png'
@@ -15,7 +14,7 @@ export const ProjectsObject = [
       "Otherwise I was quite happy as it was an early project I got a lot of features implemented in the week assigned including changing characters, a score system, local storage to save games on refresh and a small animation and sound effect."
     ],
     github: "https://github.com/Taerarch/project0",
-    technologies: ["Javascript", "JQuery", "Github Pages"]
+    technologies: ["Javascript", "JQuery", "Github Pages", "Local Storage"]
   },
 
   {
@@ -27,7 +26,7 @@ export const ProjectsObject = [
       "With this project I implemented an api along with a comprehensive CRUD system built with Ruby on Rails along with a varied relational model. Notably having users connected with their own personalized lists with exclusive abilities to remove and edit their own creations. I used google books webscraping to provide the search function however if I were to recreate this project I would find an alternative as it's search results were inconsistent."
     ],
     github: "https://github.com/Taerarch/project1",
-    technologies: ["Ruby", "Rails", "Heroku"]
+    technologies: ["Ruby", "Rails", "Heroku", "Google Books API"]
   },
 
   {
@@ -39,7 +38,7 @@ export const ProjectsObject = [
       "A collaborative project with two members of my class Cesar and Behdad. Behdad focused primarily on the backend implementing Firebase while Cesar and I were working with React on the Front. We used the BandsInTown api to get information on upcoming tour dates which we then translated onto the world map. We also introduced a userbase system to allow users to like and save various events."
     ],
     github: "https://github.com/Taerarch/ga-world-tour",
-    technologies: ["React", "React-Routes", "Bootstrap", "FireBase"]
+    technologies: ["React", "React Classes", "Bootstrap", "FireBase", "BandsInTown API"]
   },
 
   {
@@ -52,6 +51,6 @@ export const ProjectsObject = [
       "The next step would be introducing user interface and interaction as well as implementing a search function. The eventual goal with this project would be to have a complete community website allowing people to easily share their ideas and armies lists with each other. I've seen similar platforms for other games but not for Warhammer40k"
     ],
     github: "https://github.com/Taerarch/wh40k-armies",
-    technologies: ["React", "React Routes", "React Hooks", "FireBase"]
+    technologies: ["React", "React Hooks", "FireBase", "Algolia"]
   },
 ];

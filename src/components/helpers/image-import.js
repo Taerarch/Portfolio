@@ -22,6 +22,6 @@ const exportFile = (files) =>
 			(f) =>
 				`export const ${f.split('.')[0]} = <Image src={${
 					f.split('.')[0] + "Image"
-				}}  alt='${f.split('.')[0]}' width="100" rounded fluid />`,
+				}}  alt='${f.split('.')[0]}' title='${f.split('.')[0]}' width="100" rounded fluid />`,
 		)
 		.join('\n\n');

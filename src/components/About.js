@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/About.css'
-import {MatthewHeadshot} from './ImageList'
+import {MatthewHeadshot, DownArrow} from './ImageList'
 import {Col, Row, Container, Accordion, Card, Button} from 'react-bootstrap';
 import {AboutObject} from "./helpers/AboutObject"
 
@@ -31,8 +31,8 @@ function About() {
               )}
             </Accordion>
           </Col>
-          <Col id="headshot" md={4}>
-            <Card>
+          <Col md={4}>
+            <Card id="headshot">
               <Card.Body>
                 {MatthewHeadshot}
               </Card.Body>
@@ -41,6 +41,9 @@ function About() {
           <Col md={1}> </Col>
         </Row>
       </Container>
+      <div id="downArrow">
+        {DownArrow}
+      </div>
     </div>
   );
 }

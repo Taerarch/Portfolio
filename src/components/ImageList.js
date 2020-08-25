@@ -1,9 +1,10 @@
 import React from 'react'
 import {Image} from 'react-bootstrap'
 
-import FirebaseImage from './images/Firebase.jpg'
+import DownArrowImage from './images/DownArrow.png'
+import FirebaseImage from './images/Firebase.png'
 import HerokuImage from './images/Heroku.png'
-import JQueryImage from './images/JQuery.jpg'
+import JQueryImage from './images/JQuery.png'
 import JavascriptImage from './images/Javascript.png'
 import MatthewHeadshotImage from './images/MatthewHeadshot.jpg'
 import NodejsImage from './images/Nodejs.png'
@@ -16,6 +17,8 @@ import ReactLogoImage from './images/ReactLogo.png'
 import ReadingListsImage from './images/ReadingLists.png'
 import RubyImage from './images/Ruby.png'
 import Wh40kBattlegroundImage from './images/Wh40kBattleground.png'
+
+export const DownArrow = <Image src={DownArrowImage}  alt='DownArrow' title='DownArrow' width="100" rounded fluid />
 
 export const Firebase = <Image src={FirebaseImage}  alt='Firebase' title='Firebase' width="100" rounded fluid />
 
@@ -39,7 +42,7 @@ export const Project3 = <Image src={Project3Image}  alt='Project3' title='Projec
 
 export const Rails = <Image src={RailsImage}  alt='Rails' title='Rails' width="100" rounded fluid />
 
-export const ReactLogo = <Image src={ReactLogoImage}  alt='React' title='React' width="100" rounded fluid />
+export const ReactLogo = <Image src={ReactLogoImage}  alt='ReactLogo' title='ReactLogo' width="100" rounded fluid />
 
 export const ReadingLists = <Image src={ReadingListsImage}  alt='ReadingLists' title='ReadingLists' width="100" rounded fluid />
 

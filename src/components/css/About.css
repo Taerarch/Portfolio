@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
 .about {
   padding: 2em;
   width: 100vw;
-  min-height: 70vh;
+  height: 94vh;
   background-color: white;
 }
 
@@ -11,21 +13,37 @@
 }
 
 .body {
-  height: 240px;
+  height: 306px;
 }
 
 #aboutAccordion {
   width: 70%;
 }
 
+#headshot {
+  height: 80vh;
+  width: 60vh;
+}
+
 #headshot img {
   width: 100%;
+  height: 100%;
+}
+
+#downArrow img {
+  width: 50px;
+  margin: 10px;
 }
 
 #nameTitle {
   text-align: left;
-  font-size: 50px;
-  margin: 0.5em;
-  margin-bottom: 1em;
-  font-weight: bold;
+  font-size: 66px;
+  margin: 0.8em;
+  font-family: 'Alata', sans-serif;
+}
+
+@media screen and (min-device-width: 800px) {
+  #nameTitle {
+    font-size: 50px;
+  }
 }

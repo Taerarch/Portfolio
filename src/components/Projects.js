@@ -67,7 +67,6 @@ function Projects() {
             </Col>
             )}
           <Col md={2}></Col>
-
         </Row>
       </Container>
     </div>

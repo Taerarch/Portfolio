@@ -1,5 +1,4 @@
-import React from 'react';
-import {useState} from 'react';
+import React, {useState} from 'react';
 import './css/Projects.css';
 import {Card, Col, Row, Container} from 'react-bootstrap';
 import {ProjectsObject} from './helpers/ProjectsObject.js'
@@ -60,6 +59,18 @@ function Projects() {
                           </Card.Text>
                         </Card>
                       </Col>
+                    </Row>
+                    <Row>
+                      <Col md={4}/>
+                      <Col id="projectLinks" md={4}>
+                        <Card.Link href={p.deploy}>
+                          Website
+                        </Card.Link>
+                        <Card.Link href={p.github}>
+                          Github
+                        </Card.Link>
+                      </Col>
+                      <Col md={4}/>
                     </Row>
                   </Container>
                 </Card.Body>

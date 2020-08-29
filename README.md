@@ -10,4 +10,5 @@ I decided to use the construction of my portfolio for a bit of practice with Boo
 I integrated some feedback from General Assembly Alumni to not display my contact details as easy access for ne'er do wells and to add the information on mouse over for the various technology logos.
 
 
-[I'm an inline-style link with title]( "https://taerarch.github.io/Portfolio/")
+(https://taerarch.github.io/Portfolio/)
+
